@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E2799DD4-5E5F-33E2-56E6-F3C779CAE2A6}</ProjectGuid>
+    <ProjectGuid>{B9476E7A-E455-4D9A-917A-DD218FA31A5E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,15 +56,25 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AI.cs" />
+    <Compile Include="Assets\Scripts\with sound\BallBounce3.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Snake.cs" />
-    <Compile Include="Assets\Scripts\Food.cs" />
-    <Compile Include="Assets\Scripts\with sound\Food1.cs" />
-    <Compile Include="Assets\Scripts\with sound\snake2.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\with sound\Food2.cs" />
+    <Compile Include="Assets\Scripts\with sound\BallBounce2.cs" />
+    <Compile Include="Assets\Scripts\Paddle.cs" />
+    <Compile Include="Assets\Scripts\with sound\Goal4.cs" />
+    <Compile Include="Assets\Scripts\Goal.cs" />
+    <Compile Include="Assets\Scripts\Player2.cs" />
+    <Compile Include="Assets\Scripts\Ball.cs" />
+    <Compile Include="Assets\Scripts\with sound\Goal2.cs" />
     <Compile Include="Assets\Scripts\Audio.cs" />
-    <Compile Include="Assets\Scripts\with sound\snake1.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\with sound\BallBounce4.cs" />
+    <Compile Include="Assets\Scripts\Computer.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\with sound\Goal3.cs" />
+    <Compile Include="Assets\Scripts\with sound\Goal1.cs" />
+    <Compile Include="Assets\Scripts\with sound\BallBounce1.cs" />
+    <Compile Include="Assets\Scripts\BallBounce.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
