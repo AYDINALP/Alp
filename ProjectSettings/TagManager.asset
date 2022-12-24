@@ -4,15 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ball
+  - Food
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BLOCK
+  - 
   - Water
   - UI
-  - BALL
+  - 
   - 
   - 
   - 
@@ -41,10 +42,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 2574740331
-    locked: 0
-  - name: Game
-    uniqueID: 3599923015
     locked: 0
